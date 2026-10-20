@@ -1,0 +1,15 @@
+**/__pycache__
+*pyc
+/data/
+dataset_metadata/
+experiments*/
+optimization_db/
+outputs/
+scratch/
+reference/
+.agent/
+.claude/
+.env
+.idea/
+.vscode/
+wandb

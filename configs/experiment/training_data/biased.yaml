@@ -1,0 +1,1 @@
+random: false  # drops the samples whose stroke width disagrees with their class group (biased_mnist)

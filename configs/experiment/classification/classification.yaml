@@ -1,0 +1,4 @@
+defaults:
+  - train: train
+  - model: mnist_classifier
+  - _self_

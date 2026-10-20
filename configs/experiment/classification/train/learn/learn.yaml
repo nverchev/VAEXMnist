@@ -1,0 +1,10 @@
+defaults:
+  - scheduler: cosine
+  - _self_
+
+optimizer: AdamW
+learning_rate: 0.001
+grad_op: null
+clip_criterion: ema
+opt_settings:
+  weight_decay: 0.0001

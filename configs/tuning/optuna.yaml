@@ -1,0 +1,11 @@
+db_location: "optimization_db"
+renderer: firefox
+storage: "sqlite:///${db_location}/${db_name}.db"
+seed: null  # null = unset
+
+tune:
+  use_pruner: false
+  n_trials: 100
+  min_resource: 1
+  max_resource: auto  # auto = the epochs of the longest trial
+  reduction_factor: 3

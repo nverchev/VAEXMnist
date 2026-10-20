@@ -1,0 +1,10 @@
+defaults:
+  - optuna@_global_
+  - _self_
+  - tune: learn
+
+db_name: optimization
+config_name: half
+overrides: []
+n_epochs: 10
+mixed_precision: float16  # lowered precision for tuning

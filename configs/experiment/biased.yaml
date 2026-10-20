@@ -1,0 +1,11 @@
+defaults:
+  - classification: classification
+  - training_data@classification.data: biased
+  - autoencoding: autoencoding
+  - training_data@autoencoding.data: biased
+  - user: user
+  - data: data
+  - _self_
+
+variation: null  # null = the current git branch
+final: false

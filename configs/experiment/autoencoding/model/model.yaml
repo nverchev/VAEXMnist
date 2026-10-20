@@ -1,0 +1,7 @@
+defaults:
+  - architecture: architecture
+  - _self_
+
+name: vaex
+z_dim: 32
+temperature: 5.0

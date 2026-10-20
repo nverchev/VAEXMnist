@@ -1,0 +1,1 @@
+random: true  # drops the same share of each class at random (half_mnist)

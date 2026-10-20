@@ -1,0 +1,7 @@
+defaults:
+  - dataset: mnist
+  - _self_
+
+x_dim: 32
+crop_size: 32
+n_channels: 1

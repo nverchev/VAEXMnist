@@ -1,0 +1,11 @@
+defaults:
+  - learn: learn
+  - early_stopping: early_stopping
+  - _self_
+
+n_epochs: 100
+batch_size: 32
+_n_subprocesses: ${user.n_subprocesses}
+annealing_period: 90
+annealing_cycles: 1
+mixed_precision: null  # null = full precision
